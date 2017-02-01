@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		559EFE6D1DBE787E004886AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EFE6C1DBE787E004886AE /* main.m */; };
+		559EFE701DBE787E004886AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EFE6F1DBE787E004886AE /* AppDelegate.m */; };
+		559EFE731DBE787E004886AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EFE721DBE787E004886AE /* ViewController.m */; };
+		559EFE761DBE787E004886AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559EFE741DBE787E004886AE /* Main.storyboard */; };
+		559EFE781DBE787E004886AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 559EFE771DBE787E004886AE /* Assets.xcassets */; };
+		559EFE7B1DBE787E004886AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 559EFE791DBE787E004886AE /* LaunchScreen.storyboard */; };
+		559EFE841DBE7D4A004886AE /* HeartRateDetectionModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EFE831DBE7D4A004886AE /* HeartRateDetectionModel.m */; };
+		559EFE871DBEC80B004886AE /* HRVFeatureCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 559EFE861DBEC80B004886AE /* HRVFeatureCalculator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		559EFE681DBE787E004886AE /* HRVMeasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HRVMeasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		559EFE6C1DBE787E004886AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		559EFE6E1DBE787E004886AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		559EFE6F1DBE787E004886AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		559EFE711DBE787E004886AE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		559EFE721DBE787E004886AE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		559EFE751DBE787E004886AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		559EFE771DBE787E004886AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		559EFE7A1DBE787E004886AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		559EFE7C1DBE787E004886AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		559EFE821DBE7D4A004886AE /* HeartRateDetectionModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartRateDetectionModel.h; sourceTree = "<group>"; };
+		559EFE831DBE7D4A004886AE /* HeartRateDetectionModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeartRateDetectionModel.m; sourceTree = "<group>"; };
+		559EFE851DBEC80B004886AE /* HRVFeatureCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HRVFeatureCalculator.h; sourceTree = "<group>"; };
+		559EFE861DBEC80B004886AE /* HRVFeatureCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HRVFeatureCalculator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		559EFE651DBE787E004886AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		559EFE5F1DBE787E004886AE = {
+			isa = PBXGroup;
+			children = (
+				559EFE6A1DBE787E004886AE /* HRVMeasure */,
+				559EFE691DBE787E004886AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		559EFE691DBE787E004886AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				559EFE681DBE787E004886AE /* HRVMeasure.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		559EFE6A1DBE787E004886AE /* HRVMeasure */ = {
+			isa = PBXGroup;
+			children = (
+				559EFE6E1DBE787E004886AE /* AppDelegate.h */,
+				559EFE6F1DBE787E004886AE /* AppDelegate.m */,
+				559EFE711DBE787E004886AE /* ViewController.h */,
+				559EFE721DBE787E004886AE /* ViewController.m */,
+				559EFE821DBE7D4A004886AE /* HeartRateDetectionModel.h */,
+				559EFE831DBE7D4A004886AE /* HeartRateDetectionModel.m */,
+				559EFE851DBEC80B004886AE /* HRVFeatureCalculator.h */,
+				559EFE861DBEC80B004886AE /* HRVFeatureCalculator.m */,
+				559EFE741DBE787E004886AE /* Main.storyboard */,
+				559EFE771DBE787E004886AE /* Assets.xcassets */,
+				559EFE791DBE787E004886AE /* LaunchScreen.storyboard */,
+				559EFE7C1DBE787E004886AE /* Info.plist */,
+				559EFE6B1DBE787E004886AE /* Supporting Files */,
+			);
+			path = HRVMeasure;
+			sourceTree = "<group>";
+		};
+		559EFE6B1DBE787E004886AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				559EFE6C1DBE787E004886AE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		559EFE671DBE787E004886AE /* HRVMeasure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 559EFE7F1DBE787E004886AE /* Build configuration list for PBXNativeTarget "HRVMeasure" */;
+			buildPhases = (
+				559EFE641DBE787E004886AE /* Sources */,
+				559EFE651DBE787E004886AE /* Frameworks */,
+				559EFE661DBE787E004886AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HRVMeasure;
+			productName = HRVMeasure;
+			productReference = 559EFE681DBE787E004886AE /* HRVMeasure.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		559EFE601DBE787E004886AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = psobko;
+				TargetAttributes = {
+					559EFE671DBE787E004886AE = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = MGR36R9MLS;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 559EFE631DBE787E004886AE /* Build configuration list for PBXProject "HRVMeasure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 559EFE5F1DBE787E004886AE;
+			productRefGroup = 559EFE691DBE787E004886AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				559EFE671DBE787E004886AE /* HRVMeasure */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		559EFE661DBE787E004886AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559EFE7B1DBE787E004886AE /* LaunchScreen.storyboard in Resources */,
+				559EFE781DBE787E004886AE /* Assets.xcassets in Resources */,
+				559EFE761DBE787E004886AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		559EFE641DBE787E004886AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				559EFE841DBE7D4A004886AE /* HeartRateDetectionModel.m in Sources */,
+				559EFE731DBE787E004886AE /* ViewController.m in Sources */,
+				559EFE701DBE787E004886AE /* AppDelegate.m in Sources */,
+				559EFE6D1DBE787E004886AE /* main.m in Sources */,
+				559EFE871DBEC80B004886AE /* HRVFeatureCalculator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		559EFE741DBE787E004886AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559EFE751DBE787E004886AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		559EFE791DBE787E004886AE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				559EFE7A1DBE787E004886AE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		559EFE7D1DBE787E004886AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		559EFE7E1DBE787E004886AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		559EFE801DBE787E004886AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MGR36R9MLS;
+				INFOPLIST_FILE = HRVMeasure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psobko.HRVMeasure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		559EFE811DBE787E004886AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = MGR36R9MLS;
+				INFOPLIST_FILE = HRVMeasure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.psobko.HRVMeasure;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		559EFE631DBE787E004886AE /* Build configuration list for PBXProject "HRVMeasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559EFE7D1DBE787E004886AE /* Debug */,
+				559EFE7E1DBE787E004886AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		559EFE7F1DBE787E004886AE /* Build configuration list for PBXNativeTarget "HRVMeasure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				559EFE801DBE787E004886AE /* Debug */,
+				559EFE811DBE787E004886AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 559EFE601DBE787E004886AE /* Project object */;
+}
